@@ -6,3 +6,12 @@
 .nav-bar-lbdl{
     background: #292929 !important;
 }
+
+
+.icons-inicio{
+    height: 37vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}

@@ -34,17 +34,28 @@ body{
        </div>
      </nav>
 
-     <body>
-       <div class="container">
-         <!-- Page Content goes here -->
-       </div>
-     </body>
+     <div class="parallax-container">
+          <div class="parallax"><img src="images/parallax1.jpg"></div>
+        </div>
 
 
 </body>
 
 
+<script>
 
+document.addEventListener('DOMContentLoaded', function() {
+   var elems = document.querySelectorAll('.parallax');
+   var instances = M.Parallax.init(elems, options);
+ });
+
+ // Or with jQuery
+
+ $(document).ready(function(){
+   $('.parallax').parallax();
+ });
+      
+</script>
 
 
 

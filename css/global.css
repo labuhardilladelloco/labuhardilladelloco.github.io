@@ -15,3 +15,9 @@
     justify-content: center;
     color:white;
 }
+
+
+.icons-inicio > div > h2 > i {
+    font-size: 96px !important;
+    color: #cb5905 !important;
+}
